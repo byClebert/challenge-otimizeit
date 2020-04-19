@@ -18,7 +18,7 @@ This is just a simple API RESTful for managing contacts.
 - To register, update or delete a contact, must be authenticated with a JWT;
 
 ### API Access
-[Link to endpoint]('https://us-central1-challenge-otimizeit.cloudfunctions.net/api/contacts')
+[Link to endpoint](https://us-central1-challenge-otimizeit.cloudfunctions.net/api/contacts)
 
 #### ENDPOINTS
 ```js
