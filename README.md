@@ -9,32 +9,21 @@ This is just a simple API RESTful for managing contacts.
 - [x] Must be able to show a contact;
 
 ### Non-Functional Requirements
-- Must be developed with TypeScript and Node.js;
-- Must be hosted in Firebase Functions;
-- Must store the data in the Firebase Firestore;
-- Must use JWT for authentication;
+- Must be developed with Nestjs;
 
 ### Business Requirements
-- To register, update or delete a contact, must be authenticated with a JWT;
+Empty
 
 ### API Access
-[Link to endpoint](https://us-central1-challenge-otimizeit.cloudfunctions.net/api/contacts)
+No access
 
 #### ENDPOINTS
 ```js
 - [GET] /contacts         // List contacts
 - [GET] /contacts/:id     // Show a contact
-- [POST] /contacts        // Register new contact <Need to authenticate>
-- [PUT] /contacts/:id     // Update a contact <Need to authenticate>
-- [DELETE] /contacts/:id  // Delete a contact <Need to authenticate>
-```
-
-#### JWT Authentication
-You can use the following token to authenticate yourself:
-```js
-authorization: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.JgE3iK5c1ZBmUK-X0iiazRLtlOvO-G6b6sZV6eDTZOg"
-
-// This should be in the request header.
+- [POST] /contacts        // Register new contact
+- [PUT] /contacts/:id     // Update a contact
+- [DELETE] /contacts/:id  // Delete a contact
 ```
 
 #### Data to register new contact
