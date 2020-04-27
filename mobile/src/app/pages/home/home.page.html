@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot='start'>
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Meus contatos</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Jhon</ion-card-title>
+      <ion-card-subtitle>jhon.smith@gmail.com</ion-card-subtitle>
+    </ion-card-header>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Mateus</ion-card-title>
+      <ion-card-subtitle>mateus@hello.com</ion-card-subtitle>
+    </ion-card-header>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Eugênio</ion-card-title>
+      <ion-card-subtitle>eugenio.meet@outlook.com</ion-card-subtitle>
+    </ion-card-header>
+  </ion-card>
+
+
+  <ion-fab vertical='bottom' horizontal='end' slot="fixed">
+    <ion-fab-button color='primary' (click)='toNewContact()'>
+      <ion-icon name='add'></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+</ion-content>
